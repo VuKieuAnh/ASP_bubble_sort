@@ -4,7 +4,7 @@ namespace ASP_bubble_sort
 {
     class Program
     {// An optimized version of Bubble Sort 
-    static void bubbleSort(int []arr) 
+    static void BubbleSort(int []arr) 
     { 
         int i, j, temp; 
         int n = arr.Length;
@@ -32,7 +32,7 @@ namespace ASP_bubble_sort
     } 
   
     // Function to print an array  
-    static void printArray(int []arr) 
+    static void PrintArray(int []arr) 
     { 
         int i; 
         for (i = 0; i < arr.Length; i++) 
@@ -44,9 +44,9 @@ namespace ASP_bubble_sort
     public static void Main() 
     { 
         int []arr = {640, 364, 250, -12, 282, 131, -90}; 
-        bubbleSort(arr); 
+        BubbleSort(arr); 
         Console.WriteLine("Sorted array"); 
-        printArray(arr); 
+        PrintArray(arr); 
     } 
     }
 }
